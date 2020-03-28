@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="mainCity">Arkhangelsk</string>
+    <string name="second_city1">Moscow</string>
+    <string name="second_city2">S-Petersburg</string>
+    <string name="second_city3">Voronezh</string>
+    <string name="second_city4">Sochi</string>
+    <string name="second_city5">Arkhangelsk</string>
+    <string name="choose_city">Other city</string>
+</resources>

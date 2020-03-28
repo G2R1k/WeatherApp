@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Просто погода</string>
+    <string name="mainCity">Архангельск</string>
+    <string name="second_city1">Москва</string>
+    <string name="second_city2">С-Петербург</string>
+    <string name="second_city3">Воронеж</string>
+    <string name="second_city4">Сочи</string>
+    <string name="second_city5">Архангельск</string>
+    <string name="choose_city">Other city</string>
+</resources>

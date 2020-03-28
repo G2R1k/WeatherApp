@@ -9,32 +9,58 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
-    TextView mainCity;
-    TextView mainTemp;
+    //TextView mainCity;
+    //TextView mainTemp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mainCity = findViewById(R.id.mainCity);
-        mainTemp = findViewById(R.id.mainTemp);
+        //mainCity = findViewById(R.id.mainCity);
+        //mainTemp = findViewById(R.id.mainTemp);
     }
 
-    public void otherCity(View view) {
-        Intent myIntent = new Intent(getApplicationContext(), SecondActivity.class);
-        startActivityForResult(myIntent, 2);
-    }
+//    public void otherCity(View view) {
+//        Intent myIntent = new Intent(getApplicationContext(), SecondActivity.class);
+//        startActivityForResult(myIntent, 2);
+//    }
 
-    @Override
+       @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         if(requestCode != 2){
             super.onActivityResult(requestCode, resultCode, data);
             return;
         }
         if(resultCode == RESULT_OK){
-            mainCity.setText(data.getStringExtra("TEXT"));
-            mainTemp.setText(data.getStringExtra("TEMP"));
+            //mainCity.setText(data.getStringExtra("TEXT"));
+            //mainTemp.setText(data.getStringExtra("TEMP"));
         }
     }
+//    TextView mainCity;
+//    TextView mainTemp;
+//
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_main);
+//        mainCity = findViewById(R.id.mainCity);
+//        mainTemp = findViewById(R.id.mainTemp);
+//    }
+//
+//    public void otherCity(View view) {
+//        Intent myIntent = new Intent(getApplicationContext(), SecondActivity.class);
+//        startActivityForResult(myIntent, 2);
+//    }
+//
+//    @Override
+//    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+//        if(requestCode != 2){
+//            super.onActivityResult(requestCode, resultCode, data);
+//            return;
+//        }
+//        if(resultCode == RESULT_OK){
+//            mainCity.setText(data.getStringExtra("TEXT"));
+//            mainTemp.setText(data.getStringExtra("TEMP"));
+//        }
+//    }
 }

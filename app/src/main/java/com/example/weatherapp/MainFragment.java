@@ -37,7 +37,6 @@ public class MainFragment extends Fragment {
     public void onActivityCreated(Bundle savedInstanceState){
         super.onActivityCreated(savedInstanceState);
 
-        // Определение, можно ли будет расположить рядом герб в другом фрагменте
         isExistCities = getResources().getConfiguration().orientation ==
                 Configuration.ORIENTATION_LANDSCAPE;
 

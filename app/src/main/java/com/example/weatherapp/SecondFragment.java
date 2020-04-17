@@ -34,16 +34,16 @@ public class SecondFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        nameCity1 = getActivity().findViewById(R.id.button1);
-        nameCity2 = getActivity().findViewById(R.id.button2);
-        nameCity3 = getActivity().findViewById(R.id.button3);
-        nameCity4 = getActivity().findViewById(R.id.button4);
-        nameCity5 = getActivity().findViewById(R.id.button5);
-        temp1 = getActivity().findViewById(R.id.text1);
-        temp2 = getActivity().findViewById(R.id.text2);
-        temp3 = getActivity().findViewById(R.id.text3);
-        temp4 = getActivity().findViewById(R.id.text4);
-        temp5 = getActivity().findViewById(R.id.text5);
+//        nameCity1 = getActivity().findViewById(R.id.button1);
+//        nameCity2 = getActivity().findViewById(R.id.button2);
+//        nameCity3 = getActivity().findViewById(R.id.button3);
+//        nameCity4 = getActivity().findViewById(R.id.button4);
+//        nameCity5 = getActivity().findViewById(R.id.button5);
+//        temp1 = getActivity().findViewById(R.id.text1);
+//        temp2 = getActivity().findViewById(R.id.text2);
+//        temp3 = getActivity().findViewById(R.id.text3);
+//        temp4 = getActivity().findViewById(R.id.text4);
+//        temp5 = getActivity().findViewById(R.id.text5);
 
 
         // Inflate the layout for this fragment
